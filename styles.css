@@ -1,0 +1,259 @@
+
+/* index.html */
+
+main {
+    background-color: #fffae3;
+    color: #4c3c12;
+    /* margin: 0px; */
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    background-color: #d0d9c5;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    word-spacing: 10px;
+    border-radius: 10px;
+    border: 2px solid #4c3c12;
+}
+
+nav a {
+    background-color: #4c3c12;
+    padding: 10px;
+    border: 2px dotted #dad5bd;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #dad5bd;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+/* HERO SECTION */
+
+#hero {
+    background-color: #dad5bd;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#hero img {
+    float: left;
+    height: 120px;
+}
+
+
+hr {
+    height: 3px;
+    background-color: #4c3c12;
+    max-width: 95%;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* WELCOME BLOCK */
+
+#welcome {
+    text-align: center;
+}
+
+/* PROJECT BLOCK */
+
+#previous-projects {
+    padding: 10px;
+    text-decoration: none;
+    background-image: url(assets/shadows.png);
+}
+
+#previous-projects section{
+    background-color: #dad5bd;
+    max-width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 10px;
+}
+
+#previous-projects h2{
+    color: #4c3c12;
+}
+
+#previous-projects section h3{
+    position: relative;
+    left: 10px;
+}
+
+#previous-projects section button{
+    background-color: #4c3c12;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #dad5bd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* IMAGE BLOCK */
+
+img {
+    max-width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+#business-gallery{
+    text-align: center;
+}
+
+
+#business-gallery audio{
+    margin: 10px;
+}
+
+#my-song {
+    position: relative;
+    left: 28%;
+    clear: both;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #fffae3;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    background-color: #dad5bd;
+    padding: 8px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+    color: #4c3c12;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+/* ABOUT 
+SECTION */
+
+#about .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#about{
+    padding-bottom: 20px;
+}
+
+#about h1{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 1px;
+}
+
+#about #contact{
+    background-color: #dad5bd;
+    padding: 8px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 5px;
+    text-decoration: none;
+    color: #4c3c12;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    text-decoration: none;
+}
+
+#about h2{
+    margin: 10px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+#about #about-me{
+    margin: 40px;
+}
+
+#food-list{
+    background-color: #dad5bd;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 2px;
+    position: relative;
+    top: 5px;
+    font-family: 'Courier New', Courier, monospace;    
+    padding-top: -10px;
+}
+
+#food-list h2{
+    position: relative;
+    top: 5px;
+}
+
+#skill-table {
+    border-color: #4c3c12;
+    text-align: center;
+    margin: 30px;
+}
+
+#about img {
+    max-width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 5px;
+}
+
+#about h2{
+    float: top;
+    position: relative;
+    text-align: center;
+    top: 5px;
+}
+
+#about .links{
+    background-color: #dad5bd;
+    padding: 8px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #4c3c12;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;    
+    margin: 10px;
+    position: relative;
+    left: 25px;
+}
+
+#about img{
+    position: relative;
+    left: 25px;
+}
